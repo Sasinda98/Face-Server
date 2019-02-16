@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon smartbrain-server.js"
+    "start": "node smartbrain-server.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +20,13 @@
     "knex": "^0.16.3",
     "pg": "^7.8.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sasinda98/Face-Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sasinda98/Face-Server/issues"
+  },
+  "homepage": "https://github.com/Sasinda98/Face-Server#readme",
   "description": ""
 }
