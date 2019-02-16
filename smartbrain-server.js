@@ -202,7 +202,7 @@ app.post('/image/process', (req, res) => {
 
 });
 
-app.listen(3000, ()=>{console.log('SERVER STARTED..GSR');});
+app.listen(process.env.PORT || 3000, ()=>{console.log('SERVER STARTED..GSR', process.env.PORT);});
 
 //as
 
