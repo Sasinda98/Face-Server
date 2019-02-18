@@ -16,7 +16,7 @@ const Clarifai = require('clarifai');
 
 
 const clarifai_app = new Clarifai.App({
- apiKey: '2009c3c5b635434c9efb71d0d01712b1'
+ apiKey: process.env.CLARIFAI_KEY
 });
 
 //for hashing passwords.
